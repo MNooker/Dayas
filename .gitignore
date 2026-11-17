@@ -1,0 +1,8 @@
+dist/
+node_modules/
+*.tar.gz
+_site/
+__pycache__/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,30 @@
+{
+  "id": "/gestion/",
+  "name": "Daya Clothing",
+  "short_name": "Daya",
+  "lang": "es-MX",
+  "start_url": "/gestion/",
+  "scope": "/gestion/",
+  "display": "standalone",
+  "background_color": "#f8f5ef",
+  "theme_color": "#762342",
+  "icons": [
+    {
+      "src": "/gestion/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/gestion/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/gestion/assets/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "description": "Ventas, apartados, inventario y clientas de tu boutique."
+}

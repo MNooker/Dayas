@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f5ef">
+  <title>Daya · Revisión de dispositivos</title>
+  <link rel="icon" href="../assets/daya-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/fonts.css">
+  <link rel="stylesheet" href="/gestion/review.css?v=4.1.0">
+  <script src="/gestion/review.js?v=4.1.0" defer></script>
+</head>
+<body>
+  <a class="skip" href="#preview">Saltar a la vista previa</a>
+  <header class="review-header">
+    <a class="review-brand" href="/gestion/"><img src="../assets/daya-mark.svg" alt="Daya Clothing" width="37" height="40"></a>
+    <div><p class="eyebrow">Daya / Gestión</p><h1>Una tienda. Cada pantalla.</h1></div>
+    <a class="open-app" href="/gestion/">Abrir mi tienda ↗</a>
+  </header>
+  <main>
+    <section class="review-controls" aria-label="Configurar vista previa">
+      <label>Pantalla<select id="surface"><option value="inicio">Inicio</option><option value="inventario">Inventario</option><option value="vender">Nueva venta</option><option value="ventas">Ventas y tickets</option><option value="cobranza">Cobranza</option><option value="clientes">Clientas</option><option value="reportes">Reportes</option><option value="caja">Caja</option><option value="solicitudes">Solicitudes web</option><option value="ajustes">Ajustes</option></select></label>
+      <label>Tamaño<select id="device"><option value="ipad">Tablet · 768 × 1024</option><option value="landscape">Tablet horizontal · 1024 × 768</option><option value="mobile">Teléfono · 390 × 844</option><option value="compact">Teléfono compacto · 320 × 740</option><option value="desktop">Escritorio · 1440 × 900</option></select></label>
+      <p class="review-status" role="status" id="review-status">Vista de tablet · 768 × 1024</p>
+    </section>
+    <p class="review-note"><strong>Solo lectura.</strong> Personas y operaciones ficticias. La vista se ajusta a tu pantalla sin cambiar el tamaño de prueba.</p>
+    <section class="stage" id="preview" tabindex="-1" aria-label="Vista previa del panel"><div class="device-shell"><iframe id="device-frame" title="Daya · Inicio · Tablet" width="768" height="1024" src="/gestion/?revision=1#inicio"></iframe></div></section>
+    <p class="review-hint">La navegación y los formularios se pueden explorar. Para guardar operaciones, abre tu tienda e inicia sesión.</p>
+  </main>
+</body>
+</html>

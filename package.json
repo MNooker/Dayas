@@ -1,0 +1,1 @@
+{"name":"daya-clothing-integrada","version":"5.1.0","type":"module","private":true,"scripts":{"dev":"node scripts/dev.mjs","build":"node scripts/build-pages.mjs --base=/Dayas/","build:pages":"node scripts/build-pages.mjs --base=/Dayas/","build:worker":"node scripts/build.mjs","test":"node --test tests/*.test.mjs tests/*.test.cjs"}}
