@@ -1,0 +1,19 @@
+{
+  "name": "Daya Clothing · Tienda y Studio",
+  "short_name": "Daya Clothing",
+  "description": "Tienda editorial y panel Studio de Daya Clothing (prototipo local)",
+  "start_url": "/Dayas/index.html",
+  "display": "standalone",
+  "background_color": "#f7f3ee",
+  "theme_color": "#f4f0e9",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "/Dayas/",
+  "scope": "/Dayas/"
+}
